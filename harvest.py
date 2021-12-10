@@ -125,6 +125,7 @@ def get_sellability_report(melons):
         sellable = melon.is_sellable()
         print(f'Harvested by {harvestor_name} from Field {field_id} {"(CAN BE SOLD)" if sellable else "(NOT SELLABLE)"}')
 
+
 def read_file(filepath):
     
     with open(filepath) as input_file:
